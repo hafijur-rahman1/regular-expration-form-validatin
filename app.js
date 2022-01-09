@@ -65,7 +65,7 @@ function validPhone(phone) {
 }
 
 function validName(name) {
-  const message = `<small style="color:red">**length must be at lest 5 or more **</small>`;
+  const message = `<small style="color:red">**length must be at least 5 or more **</small>`;
   if (/^[a-zA-Z\s]{5,20}$/.test(name)) {
     nameInput.style.border = "2px solid #4285f4";
   } else {
@@ -75,7 +75,7 @@ function validName(name) {
 }
 
 function validUserName(userName) {
-  const message = `<small style="color:red">**length must be at lest 5**</small>`;
+  const message = `<small style="color:red">**length must be at least 5**</small>`;
   if (/^(?=[a-z_\d]*[a-z])[a-z_\d]{5}$/.test(userName)) {
     userNameInput.style.border = "2px solid #4285f4";
   } else {
