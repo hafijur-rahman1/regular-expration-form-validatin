@@ -1,0 +1,9 @@
+.body {
+  background-color: rgb(195, 192, 192);
+}
+.formUpper {
+  border: 2px solid #0dcaf0;
+  border-radius: 5px;
+  padding: 50px;
+  background-color: white;
+}
