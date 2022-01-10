@@ -76,7 +76,7 @@ function validName(name) {
 }
 
 function validUserName(userName) {
-  const message = `<small style="color:red">**length must be at least 5**</small>`;
+  const message = `<small style="color:red">**length must be 5**</small>`;
   if (/^(?=[a-z_\d]*[a-z])[a-z_\d]{5}$/.test(userName)) {
     userNameInput.style.border = "2px solid #4285f4";
   } else {
