@@ -10,6 +10,7 @@ submitBtn.addEventListener("click", (e) => {
   console.log(`click`);
   e.preventDefault();
   verifyInputs();
+  submitBtn.disabled = true;
 });
 
 function verifyInputs() {
